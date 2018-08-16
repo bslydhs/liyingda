@@ -1,0 +1,52 @@
+body{
+    background: url("../images/timg.jpg") round no-repeat;
+}
+.bigDiv{
+    margin:50% auto;
+    width: 88%;
+    padding:10px 0 30px 0;
+    border-radius:5px;
+}
+.inputText {
+     width: 95%;
+     height: 40px;
+     border-radius: 5px;
+     border: 0 solid grey;
+     margin: 10px;
+     opacity:0.5;
+ }
+.inputSubmit{
+    width: 95%;
+    height: 40px;
+    border-radius: 5px;
+    margin:10px;
+    color:white;
+    background-color: orangered;
+}
+span{
+    color:orangered;
+    font-size:0.8em;
+}
+.span1{
+    float:left;
+    margin-left:10px;
+}
+.span2{
+    float:right;
+    margin-right:10px;
+}
+.bottom{
+    font-size:0.8em;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.bottom a{
+    text-decoration: none;
+    color: orangered;
+}
+.errors{
+    font-size: 15px;
+    color:aqua;
+    text-align: center;
+}

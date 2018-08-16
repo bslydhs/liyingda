@@ -1,0 +1,28 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0")
+        meta(content="telephone=no,email=no", name="format-detection")
+        meta(content="yes", name="apple-mobile-web-app-capable")
+        meta(name="apple-mobile-web-app-status-bar-style", content="black")
+        meta(name="apple-touch-fullscreen", content="yes")
+        link(rel="shortcut icon", href="/images/title.ico", type="image/x-icon")
+        link(rel="apple-touch-icon", href="/static/images/identity/HTML5_Badge_64.png")
+        link(rel="stylesheet", href="/stylesheets/register.css")
+        script(src="/javascripts/jquery-1.12.4.js")
+        script(src="/javascripts/register.js")
+        title 注册
+    body
+        a(href="login", class="top") 返回
+        div(class="content")
+            h1 设置昵称与密码
+            p(class="p1") 用户名由6-16位数字组成，密码由8-16位数字组成
+            form(action="/register", method="post", onsubmit="return validate_form(this)")
+                input(class="inputText", type="text", placeholder="昵称", name="username", id="username")
+                input(class="inputText", type="text", placeholder="手机号", name="phone", id="phone")
+                input(class="inputText", type="password", placeholder="密码", name="password", id="password" )
+                input(class="inputText", type="password", placeholder="确认密码" name="password1", id="password1")
+                div#userError
+                div #{errors}
+                input(class="inputSubmit", type="submit", value="注册")

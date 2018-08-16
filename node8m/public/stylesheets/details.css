@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+.top{
+    position: fixed;
+    top:0;
+    height: 40px;
+    width: 100%;
+    background: #fafafa;
+}
+.top>span{
+    width: 40px;
+    margin: 2%;
+    position: fixed;
+    right:0;
+}
+.top-box{
+    display: inline-block;
+    margin:1% 3%;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    text-align: center;
+    width: 80%;
+    height: 30px;
+    background: white;
+}
+.top-box img{
+    width: 12px;
+}
+.top-box input{
+    text-indent: 10px;
+    height: 30px;
+    line-height: 30px;
+    width: 90%;
+    border: none;
+    outline: none;
+}
+.top-p{
+    margin-top:40px;
+    padding: 10px 0 10px 20px;
+}
+.top-bottom{
+    border-bottom:1px solid #e0e0e0;
+    height: 40px;
+    line-height: 40px;
+}
+.top-bottom span{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    color:#767676;
+    font-size: 15px;
+}
+.span2 img:first-child{
+    width: 8px;
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+}
+.span2 img:last-child{
+    width: 8px;
+    position: relative;
+    top: 2px;
+    right: 3px;
+}
+.span3 img{
+    width: 20px;
+    position: relative;
+    top: 4px;
+}
+.middle{
+    display:none;
+    position: relative;
+    margin-top:81px;
+    height: 2000px;
+}
+.middle-top{
+    border-bottom:1px solid #e0e0e0;
+    height: 40px;
+    background: white;
+    padding:0 5%;
+}
+.middle-top span{
+    width: 20%;
+    height: 24px;
+    line-height: 24px;
+    margin: 8px 2%;
+    background: #f7f7f7;
+    border: 1px solid #cfcfcf;
+    font-size: 13px;
+    color: #727272;
+    display: inline-block;
+    text-align: center;
+}
+.middle p{
+    background: white;
+    height: 40px;
+    line-height: 40px;
+    color:#ed5b00;
+    text-align: center;
+}
+.main{
+    margin-top: 80px;
+}
+.main>img{
+    width:100%;
+    border-bottom:5px solid #f5f5f5;
+}
+.div{
+    margin-bottom:2px;
+}
+.div img{
+    display: inline-block;
+    width: 40%;
+}
+.div1{
+    padding: 40px 0;
+    float: right;
+    width: 55%;
+    border-bottom:1px solid #e0e0e0;
+}
+.p1{
+    padding:5px 0 0 5px;
+}
+.p2{
+    padding:0 0 0 5px;
+    font-size:10px;
+    color:grey;
+}
+.p3{
+    padding:5px 0 5px 5px;
+    color:orangered;
+}

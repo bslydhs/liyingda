@@ -1,0 +1,45 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0")
+        meta(content="telephone=no,email=no", name="format-detection")
+        meta(content="yes", name="apple-mobile-web-app-capable")
+        meta(name="apple-mobile-web-app-status-bar-style", content="black")
+        meta(name="apple-touch-fullscreen", content="yes")
+        link(rel="shortcut icon", href="/images/title.ico", type="image/x-icon")
+        link(rel="apple-touch-icon", href="/static/images/identity/HTML5_Badge_64.png")
+        link(rel="stylesheet", href="/stylesheets/search.css")
+        script(src="/javascripts/jquery-1.12.4.js")
+        title 搜索
+    body
+        div(class="top")
+            div(class="top-box")
+                a(href="homePage")
+                    img(src="/images/1-4.png")
+                input(type="text", placeholder="小米8", class="input-text", id="word")
+            span#searchSpan 搜索
+        p(class="top-p") 热门搜索
+        img(src="/images/m00.jpg", style="width:100%")
+        div(class="middle")
+            span(style="background:#f9eaea; border-color:#fca0a7") 净水器厨下
+            span(style="background:#e8f6f6; border-color:#8cdade") 小米电视机4A
+            span(style="background:#f8f2ec; border-color:#fac288") 小米笔记本Pro i5
+            span(style="background:#ecf7e8; border-color:#bbd090") 一元不限量
+            span(style="background:#fae8e8; border-color:#e3af96") 米家对讲机
+            span(style="background:#f2f6e9; border-color:#bbd090") 小米短袖T恤
+            span(style="background:#f8f2ec; border-color:#fac288") 移动电源2C
+            span(style="background:#f9eaea; border-color:#fca0a7") 米家无线开关
+        p(class="middle-p") 搜索记录
+        div(class="bottom-div")
+            p
+                img(src="/images/rearch1.png")
+                span 小米手环3
+        p(class="bottom") 清除搜索记录
+        script(src="/javascripts/jquery.suggestion.js")
+        script(type="text/javascript").
+            $(function () {
+                $("#searchSpan").click(function () {
+                    window.open("/details/"+$("#word").val(),"_self");
+                });
+            })

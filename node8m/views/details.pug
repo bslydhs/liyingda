@@ -1,0 +1,46 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0")
+        meta(content="telephone=no,email=no", name="format-detection")
+        meta(content="yes", name="apple-mobile-web-app-capable")
+        meta(name="apple-mobile-web-app-status-bar-style", content="black")
+        meta(name="apple-touch-fullscreen", content="yes")
+        link(rel="shortcut icon", href="/images/title.ico", type="image/x-icon")
+        link(rel="apple-touch-icon", href="/static/images/identity/HTML5_Badge_64.png")
+        link(rel="stylesheet", href="/stylesheets/details.css")
+        script(src="/javascripts/jquery-1.12.4.js")
+        script(src="/javascripts/details.js")
+        title 搜索结果
+    body
+        div(class="top")
+            div(class="top-box")
+                a(href="search")
+                    img(src="../images/1-4.png")
+                input(type="text", placeholder="小米8")
+            span 搜索
+            div(class="top-bottom")
+                span 综合
+                span(class="span2") 价格
+                    img(src="../images/d1.png")
+                    img(src="../images/d2.png")
+                span(class="span3") 筛选
+                    img(class="img1" src="../images/d3.png")
+        div(class="middle")
+            div(class="middle-top")
+                span 有货
+                span 特惠
+                span 优惠卷
+                span 有赠品
+            p 确定
+        div(class="main")
+            img(src="../images/d4.jpg")
+            a
+                each arr in words
+                    div(class="div")
+                        img(src=arr.image)
+                        div(class="div1")
+                            p(class="p1", id="name1") #{arr.name}
+                            p(class="p2") #{arr.details}
+                            p(class="p3") #{arr.price}

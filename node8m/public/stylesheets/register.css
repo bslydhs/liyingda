@@ -1,0 +1,49 @@
+ *{
+     margin:0;
+     padding: 0;
+ }
+ a{
+     text-decoration: none;
+ }
+/*@media(max-width: 378px){*/
+    .top{
+        display: block;
+        margin: 20px 10px;
+        font-size:20px;
+        color:grey;
+    }
+.content{
+    width:88%;
+    min-height: 560px;
+    margin: 10px auto 0;
+    padding: 10px;
+}
+ h1{
+      width: 80%;
+      height: 20px;
+      color:grey;
+  }
+ p{
+     margin-top: 28px;
+     color:#cdcdcd;
+ }
+ body{
+     background: url("../images/timg.jpg") round no-repeat;
+ }
+ .inputText {
+     width: 95%;
+     height: 40px;
+     border-radius: 5px;
+     border: 0 solid grey;
+     margin: 10px;
+     opacity:0.5;
+ }
+ .inputSubmit{
+     width: 95%;
+     height: 40px;
+     border-radius: 5px;
+     margin:10px;
+     color:white;
+     background-color: orangered;
+ }
+

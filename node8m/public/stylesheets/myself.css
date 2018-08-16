@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+.top{
+    height: 80px;
+    width: 100%;
+    background:#ff6b00;
+}
+.img1{
+    width: 56px;
+    position: relative;
+    border-radius: 28px;
+    margin: 10px;
+}
+.top span{
+    color: white;
+    padding-left: 20px;
+    font-size: 15px;
+    height: 70px;
+    line-height: 70px;
+    position: relative;
+    bottom: 30px;
+}
+.img2{
+    width: 25px;
+    margin: 2%;
+    float: right;
+}
+.p1{
+    padding-left: 20px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom:1px solid #bfbfbf;
+}
+.p-div{
+    position: relative;
+    float: right;
+    color:#bfbfbf;
+    font-size: 15px;
+    bottom:31px;
+}
+.p-div img{
+    width: 15px;
+}
+.middle1{
+    height: 80px;
+    padding-top: 20px;
+}
+.middle1 p{
+    display: inline-block;
+}
+.middle1 span{
+    display: inline-block;
+    color: #424242;
+    padding:0 5%;
+    width: 15%;
+}
+.middle1>span>img{
+    position: relative;
+    left: 20%;
+    width: 30px;
+}
+body>img{
+    width: 100%;
+    border-bottom:10px solid #f5f5f5;
+}
+.main{
+    margin-bottom:51px;
+}
+.main img{
+    width: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+.main p{
+    position: relative;
+    width: 89%;
+    height: 40px;
+    border-bottom: 1px solid #bfbfbf;
+    display: inline-block;
+    color:#424242;
+}
+.main p>span{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.main p>img{
+    float:right;
+    width: 14px;
+}
+.middle2{
+    border-bottom: 10px solid #f5f5f5;
+}
+.middle3{
+    border-bottom: 10px solid #f5f5f5;
+}
+.bottom{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    height: 55px;
+    background: white;
+    font-size: 12px;
+    text-align: center;
+    border-top:1px solid #bfbfbf;
+}
+.bottom-ipn{
+    position: relative;
+    display: inline-block;
+    margin: 0 3%;
+    width: 40px;
+    bottom: 20px;
+}
+.bottom-ipn img{
+    width: 30px;
+}
+.bottom-ipn1{
+    display: inline-block;
+    margin:0 25px;
+    width: 50px;
+    color:#ea9518;
+}
+.bottom-ipn1 img{
+    bottom: 25px;
+    position: relative;
+    width: 54px;
+    border-radius: 27px;
+}
+.bottom-ipn1>span{
+    position: relative;
+    bottom: 20px;
+}

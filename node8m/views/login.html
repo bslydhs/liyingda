@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <link rel="apple-touch-icon" href="/static/images/identity/HTML5_Badge_64.png">
+    <link rel="stylesheet" href="/stylesheets/login.css">
+    <script src="/javascripts/jquery-1.12.4.js"></script>
+    <title>login</title>
+  </head>
+  <body>
+    <div class="bigDiv">
+      <form action="/login" method="post">
+        <div>
+          <input class="inputText" type="text" placeholder="username" name="username">
+          <input class="inputText" type="password" placeholder="password" name="password">
+          <input class="inputSubmit" type="submit" value="登录">
+        </div>
+        <div><a href="register.html"><span class="span1">注册账户</span></a><span class="span2">忘记密码</span></div>
+      </form>
+    </div>
+    <div class="bottom">登录即代表阅读并同意<a href="">服务条款</a></div>
+  </body>
+</html>

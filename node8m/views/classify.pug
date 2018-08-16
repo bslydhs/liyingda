@@ -1,0 +1,98 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0")
+        meta(content="telephone=no,email=no", name="format-detection")
+        meta(content="yes", name="apple-mobile-web-app-capable")
+        meta(name="apple-mobile-web-app-status-bar-style", content="black")
+        meta(name="apple-touch-fullscreen", content="yes")
+        link(rel="shortcut icon", href="/images/title.ico", type="image/x-icon")
+        link(rel="apple-touch-icon", href="/static/images/identity/HTML5_Badge_64.png")
+        link(rel="stylesheet", href="/stylesheets/classify.css")
+        script(src="/javascripts/jquery-1.12.4.js")
+        script(src="/javascripts/classify.js")
+        title 分类
+    body
+        div(class="top")
+            div(class="top-box")
+                img(src="/images/1-2.png")
+                input(type="text", placeholder="小米8" id="input")
+            img(src="/images/1-1.png")
+        div(class="middle")
+            div(class="left")
+                each i,index in list
+                    a(href="#right"+(index+1))
+                        p(class="left-p") #{i.name}
+                    //a(href="#right2")
+                    //    p(class="left-p") #{i.name}
+                    //a(href="#right3")
+                    //    p(class="left-p") 电视
+                    //a(href="#right4")
+                    //    p(class="left-p") 电脑
+                    //a(href="#right5")
+                    //    p(class="left-p") 家电
+                    //a(href="#right6")
+                    //    p(class="left-p") 路由
+                    //a(href="#right7")
+                    //    p(class="left-p") 出行
+                    //a(href="#right8")
+                    //    p(class="left-p") 穿戴
+                    //a(href="#right9")
+                    //    p(class="left-p") 智能
+                    //a(href="#right9")
+                    //    p(class="left-p") 电源
+                    //a(href="#right10")
+                    //    p(class="left-p") 个护
+                    //a(href="#right11")
+                    //    p(class="left-p") 灯具
+            div(class="right")
+                each j,index in destail
+                    div(class="right1", id="right"+(index+1))
+                        img(src=j.img0, class="img0")
+                        p(class="rip") #{j.p0}
+                        div(class="right-div")
+                            div(class="right-div1")
+                                img(src=j.img1)
+                                p #{j.p1}
+                            div(class="right-div2")
+                                img(src=j.img2)
+                                p #{j.p2}
+                            div(class="right-div3")
+                                img(src=j.img3)
+                                p #{j.p3}
+                        div(class="right-div")
+                            div(class="right-div1")
+                                img(src=j.img4)
+                                p #{j.p4}
+                            div(class="right-div2")
+                                img(src=j.img5)
+                                p #{j.p5}
+                            div(class="right-div3")
+                                img(src=j.img6)
+                                p #{j.p6}
+                        div(class="right-div")
+                            div(class="right-div1")
+                                img(src=j.img7)
+                                p #{j.p7}
+        div(class="bottom")
+            a(href="homePage")
+                div(class="bottom-ipn")
+                    img(src="/images/b-1.png")
+                    span(class="span1") 首页
+            a(href="classify")
+                div(class="bottom-ipn")
+                    img(src="/images/b-21.png")
+                    span(class="span2") 分类
+            a(href="find")
+                div(class="bottom-ipn1")
+                    img(src="/images/logo.png")
+                    span 发现
+            a(href="shopping")
+                div(class="bottom-ipn")
+                    img(src="/images/b-3.png")
+                    span 购物车
+            a(href="myself")
+                div(class="bottom-ipn")
+                    img(src="/images/b-4.png")
+                    span 我的

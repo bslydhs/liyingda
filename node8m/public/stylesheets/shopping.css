@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+.top{
+    position: fixed;
+    top:0;
+    height: 40px;
+    width: 100%;
+    border-bottom:1px solid #eeeeee;
+    background: #fafafa;
+    z-index: 100;
+}
+.top span{
+    font-size: 18px;
+    position: fixed;
+    left: 44%;
+    top: 7px;
+}
+.top>img{
+    width: 25px;
+    margin: 2%;
+    position: fixed;
+    right:0;
+}
+.middle-top{
+    margin-top:40px;
+    padding: 20px 20%;
+}
+.middle-top img{
+    width: 55px;
+}
+.middle-top span{
+    color:#b1b1b1;
+    position: relative;
+    bottom: 20px;
+    margin: 0 4px;
+}
+.middle-top button{
+    position: relative;
+    bottom: 20px;
+    background: white;
+    border: 1px solid #bfbfbf;
+    padding: 5px 2px;
+}
+.middle-p{
+    text-align: center;
+    color: #ff5000;
+    background: #f5f5f5;
+    height: 40px;
+    line-height: 40px;
+}
+.selection-div div{
+    width: 50%;
+    display: inline-block;
+}
+.selection-div-div{
+    float: right;
+}
+.selection img{
+    width: 100%;
+}
+.p1{
+    padding:5px 0 0 5px;
+}
+.p2{
+    padding:0 0 0 5px;
+    font-size:10px;
+    color:grey;
+}
+.p3{
+    padding:5px 0 5px 5px;
+    color:orangered;
+}
+.bottom{
+    position: fixed;
+    display: inline-block;
+    bottom:0;
+    width: 100%;
+    height: 55px;
+    background: white;
+    font-size: 12px;
+    text-align: center;
+    border-top:1px solid #eeeeee;
+}
+.bottom-ipn{
+    position: relative;
+    display: inline-block;
+    margin: 0 3%;
+    width: 40px;
+    bottom: 20px;
+}
+.bottom-ipn img{
+    width: 30px;
+}
+.bottom-ipn1{
+    display: inline-block;
+    margin:0 25px;
+    width: 50px;
+    color:#ea9518;
+}
+.bottom-ipn1 img{
+    bottom: 25px;
+    position: relative;
+    width: 54px;
+    border-radius: 27px;
+}
+.bottom-ipn1>span{
+    position: relative;
+    bottom: 20px;
+}
+.span3{
+    color:#ea9518;
+}
