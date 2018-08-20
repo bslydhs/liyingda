@@ -1,0 +1,38 @@
+{"_id":{"$oid":"5b6d46d642281d37ccf4578f"},"type":"1","name":"红米4x","details":"4100mAh超长续航/骁龙8核处理器","price":"￥1099","image":"../images/7-1.jpg"}
+{"_id":{"$oid":"5b6d477642281d37ccf45790"},"type":"1","name":"小米6","details":"骁龙835 超大运行内存","price":"￥2199","image":"../images/7-2.jpg"}
+{"_id":{"$oid":"5b6d483b224d7d37ccc02a3e"},"type":"1","name":"小米MIX 2S","details":"陶瓷机身 手机中的艺术品","price":"￥2899起","image":"../images/7-3.jpg"}
+{"_id":{"$oid":"5b6d486e224d7d37ccc02a3f"},"type":"1","name":"移动电源高配版","details":"支持USB-C充电/高密度","price":"￥149","image":"../images/7-4.jpg"}
+{"_id":{"$oid":"5b6d48a2224d7d37ccc02a40"},"type":"1","name":"小米米家电动滑板车","details":"极简几何设计/30公里超长续航","price":"￥1999","image":"../images/7-5.jpg"}
+{"_id":{"$oid":"5b6d48cc224d7d37ccc02a41"},"type":"1","name":"红米4A","details":"4100mAh超长续航/晓龙8核处理器","price":"￥799","image":"../images/7-6.jpg"}
+{"_id":{"$oid":"5b7020abdb74f32c6800a9ad"},"type":"3","name":"新品"}
+{"_id":{"$oid":"5b7020f56d75192c68221033"},"type":"3","name":"手机"}
+{"_id":{"$oid":"5b7021016d75192c68221034"},"type":"3","name":"电视"}
+{"_id":{"$oid":"5b70210c6d75192c68221035"},"type":"3","name":"电脑"}
+{"_id":{"$oid":"5b7021196d75192c68221036"},"type":"3","name":"家电"}
+{"_id":{"$oid":"5b7021276d75192c68221037"},"type":"3","name":"路由"}
+{"_id":{"$oid":"5b7021316d75192c68221038"},"type":"3","name":"出行"}
+{"_id":{"$oid":"5b70213c6d75192c68221039"},"type":"3","name":"穿戴"}
+{"_id":{"$oid":"5b7021456d75192c6822103a"},"type":"3","name":"智能"}
+{"_id":{"$oid":"5b70214d6d75192c6822103b"},"type":"3","name":"电源"}
+{"_id":{"$oid":"5b7021556d75192c6822103c"},"type":"3","name":"个护"}
+{"_id":{"$oid":"5b7021646d75192c6822103d"},"type":"3","name":"灯具"}
+{"_id":{"$oid":"5b702576db74f32c6800a9ae"},"img0":"images/2-2.jpg","p0":"新品推荐","img1":"images/5-1.jpg","p1":"移动电源","img2":"images/5-2.jpg","p2":"小米电动平板车","img3":"images/5-3.jpg","p3":"MI Max2","img4":"images/5-4.jpg","p4":"AI智能音箱","img5":"images/5-5.jpg","p5":"VR眼镜","img6":"images/5-6.jpg","p6":"蓝牙耳机","img7":"images/5-7.jpg","p7":"小米路由器","type":"4"}
+{"_id":{"$oid":"5b7027116d75192c6822103e"},"img0":"images/m0.jpg","p0":"小米手机","img1":"images/5-1.jpg","p1":"移动电源","img2":"images/5-2.jpg","p2":"小米电动平板车","img3":"images/5-3.jpg","p3":"MI Max2","img4":"images/5-4.jpg","p4":"AI智能音箱","img5":"images/5-5.jpg","p5":"VR眼镜","img6":"images/5-6.jpg","p6":"蓝牙耳机","img7":"images/5-7.jpg","p7":"小米路由器","type":"4"}
+{"_id":{"$oid":"5b717b3107af0428d48a57f0"},"type":"1","name":"红米4","details":"4100mAh超长续航/晓龙8核处理器","price":"￥799","image":"images/7-6.jpg"}
+{"_id":{"$oid":"5b717b3c07af0428d48a57f1"},"type":"1","name":"米家电动滑板车","details":"极简几何设计/30公里超长续航","price":"￥1999","image":"images/7-5.jpg"}
+{"_id":{"$oid":"5b717b4607af0428d48a57f2"},"type":"1","name":"小米MIX S","details":"陶瓷机身 手机中的艺术品","price":"￥2899起","image":"images/7-3.jpg"}
+{"_id":{"$oid":"5b717b5207af0428d48a57f3"},"type":"1","name":"米4x","details":"4100mAh超长续航/骁龙8核处理器","price":"￥1099","image":"images/7-1.jpg"}
+{"_id":{"$oid":"5b717b5a07af0428d48a57f4"},"type":"1","name":"小米电动滑板车","details":"极简几何设计/30公里超长续航","price":"￥1999","image":"images/7-5.jpg"}
+{"_id":{"$oid":"5b717b6c07af0428d48a57f5"},"type":"1","name":"移动电源","details":"支持USB-C充电/高密度","price":"￥149","image":"images/7-4.jpg"}
+{"_id":{"$oid":"5b717b7107af0428d48a57f6"},"type":"1","name":"电源高配版","details":"支持USB-C充电/高密度","price":"￥149","image":"images/7-4.jpg"}
+{"_id":{"$oid":"5b717b7907af0428d48a57f7"},"type":"1","name":"米6","details":"骁龙835 超大运行内存","price":"￥2199","image":"images/7-2.jpg"}
+{"_id":{"$oid":"5b72883fbc9aa83318ed7996"},"img0":"images/m00.jpg","p0":"小米电视","img1":"images/5-1.jpg","p1":"移动电源","img2":"images/5-2.jpg","p2":"小米电动平板车","img3":"images/5-3.jpg","p3":"MI Max2","img4":"images/5-4.jpg","p4":"AI智能音箱","img5":"images/5-5.jpg","p5":"VR眼镜","img6":"images/5-6.jpg","p6":"蓝牙耳机","img7":"images/5-7.jpg","p7":"小米路由器","type":"4"}
+{"_id":{"$oid":"5b72889cbc9aa83318ed7997"},"img0":"images/2-3.jpg","p0":"小米电脑","img1":"images/5-1.jpg","p1":"移动电源","img2":"images/5-2.jpg","p2":"小米电动平板车","img3":"images/5-3.jpg","p3":"MI Max2","img4":"images/5-4.jpg","p4":"AI智能音箱","img5":"images/5-5.jpg","p5":"VR眼镜","img6":"images/5-6.jpg","p6":"蓝牙耳机","img7":"images/5-7.jpg","p7":"小米路由器","type":"4"}
+{"_id":{"$oid":"5b7288a6bc9aa83318ed7998"},"img0":"images/2-4.jpg","p0":"小米家电","img1":"images/5-1.jpg","p1":"移动电源","img2":"images/5-2.jpg","p2":"小米电动平板车","img3":"images/5-3.jpg","p3":"MI Max2","img4":"images/5-4.jpg","p4":"AI智能音箱","img5":"images/5-5.jpg","p5":"VR眼镜","img6":"images/5-6.jpg","p6":"蓝牙耳机","img7":"images/5-7.jpg","p7":"小米路由器","type":"4"}
+{"_id":{"$oid":"5b7292f4bc9aa83318ed7999"},"type":"2","name":"红米4x","details":"4100mAh超长续航/骁龙8核处理器","price":"￥1099","image":"../images/7-1.jpg"}
+{"_id":{"$oid":"5b7292fcbc9aa83318ed799a"},"type":"2","name":"小米6","details":"骁龙835 超大运行内存","price":"￥2199","image":"../images/7-2.jpg"}
+{"_id":{"$oid":"5b729304bc9aa83318ed799b"},"type":"2","name":"移动电源高配版","details":"支持USB-C充电/高密度","price":"￥149","image":"../images/7-4.jpg"}
+{"_id":{"$oid":"5b72930bbc9aa83318ed799c"},"type":"2","name":"移动电源高配版","details":"支持USB-C充电/高密度","price":"￥149","image":"../images/7-4.jpg"}
+{"_id":{"$oid":"5b729311bc9aa83318ed799d"},"type":"2","name":"小米米家电动滑板车","details":"极简几何设计/30公里超长续航","price":"￥1999","image":"../images/7-5.jpg"}
+{"_id":{"$oid":"5b729318bc9aa83318ed799e"},"type":"2","name":"红米4A","details":"4100mAh超长续航/晓龙8核处理器","price":"￥799","image":"../images/7-6.jpg"}
+{"_id":{"$oid":"5b73ca384f2f1927a8c2f69b"},"type":"1","name":"小米米家电动滑板车","details":"极简几何设计/30公里超长续航","price":"￥1999","image":"../images/7-5.jpg"}
